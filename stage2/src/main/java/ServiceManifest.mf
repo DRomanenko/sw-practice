@@ -1,0 +1,9 @@
+Created-By: Demian Romanenko
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Hello Service
+Bundle-SymbolicName: hello-service
+Bundle-Activator: service.HelloService
+Bundle-Version: 1.0
+Import-Package: org.osgi.framework
+Export-Package: service;version="1.0"

@@ -1,0 +1,9 @@
+Created-By: Demian Romanenko
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Hello Client
+Bundle-SymbolicName: hello-client
+Bundle-Activator: client.HelloClient
+Bundle-Version: 1.0
+Import-Package: service;version="[1.0,2.0)",org.osgi.framework
+Export-Package: client;version="1.0"
